@@ -1,0 +1,29 @@
+# RiseKaptan Worlds Configuration
+
+worlds:
+  world:
+    max-x: 10000
+    max-z: 10000
+    cost: 500  # Base cost
+    costs:  # Permission-based costs
+      vip: 250    # risekaptan.cost.vip
+      mvp: 100    # risekaptan.cost.mvp
+      premium: 0  # risekaptan.cost.premium
+  
+  world_nether:
+    max-x: 5000
+    max-z: 5000
+    cost: 1000
+    costs:
+      vip: 500
+      mvp: 200
+      premium: 0
+  
+  world_the_end:
+    max-x: 3000
+    max-z: 3000
+    cost: 1500
+    costs:
+      vip: 750
+      mvp: 300
+      premium: 0

@@ -1,0 +1,74 @@
+# RiseKaptan Menu Configuration
+
+menu:
+  title: '&6Kaptan'
+  size: 54
+  
+  items:
+    world:
+      slot: 20
+      material: GRASS_BLOCK
+      custom-model-data: 0  # Set to use ItemsAdder/Oraxen items
+      name: '&aDünya'
+      world: world
+      lore:
+        - ''
+        - '&7Şu an &e%player_count% &7oyuncu bu dünyada.'
+        - ''
+        - '&eDünya Bilgileri:'
+        - '&7Boyut: &f%size%'
+        - '&7Zorluk: &fZor'
+        - ''
+        - '&eYolculuk Bilgileri:'
+        - '&7Kaptanla bu dünyaya ilk yolculuğun'
+        - '&7rastgele bir yere yapılır. Daha'
+        - '&7sonrakilerde istersen en son kaldığın'
+        - '&7yere veya rastgele bir konuma'
+        - '&7yolculuk yapabilirsin.'
+        - ''
+        - '&aSol Tıkla &7ve kaldığın yere git'
+        - '&eSağ Tıkla &7ve rastgele ışınlan'
+        - ''
+        - '&cÜcret: &e%cost% Altın'
+    
+    nether:
+      slot: 22
+      material: NETHERRACK
+      name: '&cNether'
+      world: world_nether
+      lore:
+        - ''
+        - '&7Şu an &e%player_count% &7oyuncu bu dünyada.'
+        - ''
+        - '&eDünya Bilgileri:'
+        - '&7Boyut: &f%size%'
+        - '&7Zorluk: &fZor'
+        - ''
+        - '&eYolculuk Bilgileri:'
+        - '&7Kaptanla bu dünyaya ilk yolculuğun'
+        - '&7rastgele bir yere yapılır.'
+        - ''
+        - '&eTıkla &7ve ışınlan'
+        - ''
+        - '&cÜcret: &e%cost% Altın'
+    
+    end:
+      slot: 24
+      material: END_STONE
+      name: '&dEnd'
+      world: world_the_end
+      lore:
+        - ''
+        - '&7Şu an &e%player_count% &7oyuncu bu dünyada.'
+        - ''
+        - '&eDünya Bilgileri:'
+        - '&7Boyut: &f%size%'
+        - '&7Zorluk: &fÇok Zor'
+        - ''
+        - '&eYolculuk Bilgileri:'
+        - '&7Kaptanla bu dünyaya ilk yolculuğun'
+        - '&7rastgele bir yere yapılır.'
+        - ''
+        - '&eTıkla &7ve ışınlan'
+        - ''
+        - '&cÜcret: &e%cost% Altın'

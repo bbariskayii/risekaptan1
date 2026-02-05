@@ -1,0 +1,30 @@
+name: RiseKaptan
+version: 1.0.0
+main: com.risekaptan.RiseKaptan
+api-version: 1.16
+author: RiseKaptan
+description: Advanced RTP plugin with RPG travel and Galeyan features
+softdepend: [Vault, PlaceholderAPI, Citizens, FancyNpcs, WorldEdit, GriefPrevention, Towny, Lands, CoinsEngine, PlayerPoints, ItemsAdder, Oraxen]
+
+commands:
+  kaptan:
+    description: Open Kaptan menu
+    aliases: [rtp]
+  kaptanadmin:
+    description: Admin commands for RiseKaptan
+    permission: risekaptan.admin
+    aliases: [rtpadmin, kaptana]
+
+permissions:
+  risekaptan.admin:
+    description: Access to admin commands
+    default: op
+  risekaptan.use:
+    description: Use kaptan menu
+    default: true
+  risekaptan.bypass.cooldown:
+    description: Bypass RTP cooldown
+    default: op
+  risekaptan.bypass.cost:
+    description: Bypass RTP cost
+    default: op

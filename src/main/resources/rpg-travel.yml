@@ -1,0 +1,57 @@
+# RiseKaptan RPG Travel Configuration
+
+# Enable/Disable RPG Travel
+enabled: true
+
+# Only first time travel uses RPG mode
+only-first-time: true
+
+# Worlds that use RPG travel
+worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Travel duration in seconds
+travel-duration-seconds: 10
+
+# Kaptan NPC Configuration
+npc:
+  enabled: true
+  skin: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGIzNmQ1M2ZmZjY5YTQ5YzdkNmY0MjQ4NTdlMjcxN2QxOWZkYzlhOTk2MmU5ZmVjMzAzODg1NGI2NjY4YSJ9fX0='
+
+# Travel area locations (where player is teleported during travel)
+travel-areas:
+  world: 'world,0,100,0,0,0'
+  world_nether: 'world,0,100,0,0,0'
+  world_the_end: 'world,0,100,0,0,0'
+
+# NPC spawn locations
+npc-locations:
+  world: 'world,5,100,0,180,0'
+  world_nether: 'world,5,100,0,180,0'
+  world_the_end: 'world,5,100,0,180,0'
+
+# Kaptan dialogues during travel
+dialogues:
+  - '&6Kaptan &8» &7Yolculuğa hazır mısın?'
+  - '&6Kaptan &8» &7Hadi o zaman başlayalım!'
+  - '&6Kaptan &8» &7Gözlerini kapat...'
+  - '&6Kaptan &8» &7Ve nefes al...'
+  - '&6Kaptan &8» &7Hemen varıyoruz!'
+
+# Potion effects during travel
+effects:
+  - 'BLINDNESS:1'
+  - 'SLOW:2'
+
+# Sounds during travel
+sounds:
+  dialogue: 'ENTITY_VILLAGER_YES'
+  travel-start: 'ENTITY_ENDERMAN_TELEPORT'
+  travel-end: 'ENTITY_PLAYER_LEVELUP'
+
+# Particles during travel
+particles:
+  type: 'PORTAL'
+  count: 20

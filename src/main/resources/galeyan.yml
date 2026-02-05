@@ -1,0 +1,29 @@
+# RiseKaptan Galeyan Configuration
+
+# Enable/Disable Galeyan system
+enabled: true
+
+# Default interval for new areas (in seconds)
+default-interval: 300
+
+# Default PvP protection after teleport (in seconds)
+default-pvp-protection: 10
+
+# Announce countdown at these seconds
+announce-countdown-at:
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+
+# Sound when countdown announced
+countdown-sound: 'BLOCK_NOTE_BLOCK_PLING'
+
+# Particles when teleporting
+teleport-particles:
+  type: 'PORTAL'
+  count: 50
+
+# Galeyan areas are stored in database
+# Use /kaptanadmin galeyan setarea <name> to create areas

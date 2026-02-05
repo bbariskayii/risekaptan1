@@ -1,0 +1,51 @@
+# RiseKaptan Main Configuration
+
+# Database Configuration
+database:
+  # Type: mysql or sqlite
+  type: sqlite
+  mysql:
+    host: localhost
+    port: 3306
+    database: risekaptan
+    username: root
+    password: ''
+
+# RTP Settings
+default-cooldown: 300  # Default cooldown in seconds
+max-attempts: 100  # Maximum attempts to find safe location
+spawn-protection-seconds: 5  # Spawn protection after teleport
+
+# Permission-based cooldowns
+cooldowns:
+  vip: 60      # risekaptan.cooldown.vip
+  mvp: 30      # risekaptan.cooldown.mvp
+  premium: 10  # risekaptan.cooldown.premium
+
+# Command Settings
+commands:
+  kaptan:
+    enabled: true
+  rtp:
+    enabled: true
+
+# Disable RTP command (menu only)
+disable-rtp-command: false
+
+# Worlds where commands are disabled
+disabled-command-worlds:
+  - spawn
+  - lobby
+
+# Disabled worlds (no RTP)
+disabled-worlds:
+  - lobby
+  - spawn
+
+# World Permission System
+world-permissions:
+  enabled: false
+  worlds:
+    nether: risekaptan.world.nether
+    end: risekaptan.world.end
+    custom_world: risekaptan.world.custom

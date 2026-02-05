@@ -1,0 +1,38 @@
+# RiseKaptan Messages Configuration
+
+# General Messages
+no-permission: '&cYeterli izniniz yok!'
+command-disabled: '&cBu komut devre dışı!'
+command-disabled-in-world: '&cBu dünyada yapamazsın.'
+world-not-found: '&cDünya bulunamadı!'
+no-world-permission: '&cDünyaya erişim iznin bulunmuyor.'
+world-disabled: '&cBu dünyada RTP yapılamaz!'
+world-kicked: '&cBu dünyada bulunma iznin olmadığından, dünyadan atıldın.'
+no-action-permission: '&cBu dünyada bunu yapmaya iznin bulunmuyor.'
+
+# RTP Messages
+rtp-preparing: '&6Kaptan &8» &7Işınlanma için hazırlanılıyor...'
+teleported: '&6Kaptan &8» &7Işınlandın. &e[X: %x%, Y: %y%, Z: %z%]'
+rtp-failed: '&6Kaptan &8» &cGüvenli konum bulunamadı!'
+rtp-command-disabled: '&6Kaptan &8» &c/rtp komutu devre dışı! Lütfen menüyü kullan.'
+rtp-not-enabled-in-world: '&6Kaptan &8» &cBu dünyada RTP yapılamaz!'
+spawn-protection: '&6Kaptan &8» &a%seconds% saniyeliğine hasar görmezsin.'
+last-location-teleport: '&6Kaptan &8» &7Son kaldığın yerden devam ediyorsun.'
+
+# Economy Messages
+economy-not-available: '&cEkonomi sistemi bulunamadı!'
+insufficient-money: '&6Kaptan &8» &cBunun için &e%amount% Altın &cihtiyacın var.'
+money-paid: '&6Kaptan &8» &e%amount% Altın &7ödendi.'
+
+# Cooldown Messages
+cooldown-active: '&6Kaptan &8» &cTekrar ışınlanmak için &e%time% &cbekle.'
+
+# Galeyan Messages
+galeyan:
+  countdown: '&6Kaptan &8» &eGaleyan ışınlanma &c%seconds% saniye &eiçinde yapılacak.'
+  teleported: '&6Kaptan &8» &aGaleyan ışınlanma işlemi gerçekleşti.'
+  pvp-protection: '&6Kaptan &8» &a%seconds% saniyeliğine hasar görmezsin.'
+
+# PvP Protection Messages
+target-has-pvp-protection: '&cHedef oyuncunun PvP koruması var!'
+you-have-pvp-protection: '&cPvP korumanız varken saldıramazsınız!'
